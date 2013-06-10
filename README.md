@@ -22,6 +22,7 @@ issuing the following situation.
 	rm -r /mnt/*
 
 Now you have a split-brain situation because /dev/md0 and /dev/md1 have the same UUID, but different data on it.
+
 	blkid /dev/md0
 	blkid /dev/md1
 	mdadm --detail /dev/md0
@@ -34,6 +35,7 @@ Install
 ========
 Copy the script in your /usr/local/bin/ directory
 Add it to /etc/profile
+
 	git clone https://github.com/dobber/md-split.git
 	cd md-split
 	cp -a md-split.sh /usr/local/bin/
