@@ -31,6 +31,10 @@ Now you have a split-brain situation because /dev/md0 and /dev/md1 have the same
 It is possible that the next time you reboot your server, an automated "mdadm --assemble --scan" and /etc/fstab 
 that uses UUIDs to mount the wrong drive in your directory.
 
+Example
+========
+![Split brain reportin on login](http://f.cl.ly/items/3x0r1j1g0j0V1f07422s/Screen%20Shot%202013-06-10%20at%204.13.15%20PM.png)
+
 Install
 ========
 Copy the script in your /usr/local/bin/ directory
