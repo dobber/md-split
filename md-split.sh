@@ -19,6 +19,6 @@ done
 for dups in `echo ${ids[@]} | tr ' ' '\n' | sort | uniq --repeated` ; do
 	raids=( `blkid | grep $dups | awk '{print $1}' | cut -f 1 -d:` )
 	echo
-	echo "Warning!!! Posible split brain situation in md raid with UUID ${dups}, devices ${raids[@]}"
+	echo "Warning!!! Possible split-brain situation in md raid with UUID ${dups}, devices ${raids[@]}"
 	echo
 done

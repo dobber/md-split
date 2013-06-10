@@ -33,7 +33,7 @@ that uses UUIDs to mount the wrong drive in your directory.
 
 Example
 ========
-![Split brain reportin on login](http://f.cl.ly/items/3x0r1j1g0j0V1f07422s/Screen%20Shot%202013-06-10%20at%204.13.15%20PM.png)
+![Split brain reportin on login](http://f.cl.ly/items/0Z3A1w3q2r0k0p2q1V37/Screen%20Shot%202013-06-10%20at%204.18.48%20PM.png)
 
 Install
 ========
